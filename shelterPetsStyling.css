@@ -1,0 +1,28 @@
+#htwo{
+    color: cornsilk;
+    margin-left: 300px;
+    padding: 10px;
+    font-size:3rem;
+    
+}
+
+
+body{
+    background-image: url('pets.jpg');
+    background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row{
+    margin-bottom: 300px;
+    margin-left: 250px;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.table{
+    width: 50%;
+    background-color: darkgrey;
+    opacity: 85%;
+}

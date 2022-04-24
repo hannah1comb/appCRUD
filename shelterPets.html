@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="shelterPetsStyling.css">
+    <title>Animal Shelter</title>
+</head>
+<body>
+
+  <h2 id="htwo">Animal Shelter Pets Available for Adoption</h2>
+
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-12">
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">ID Number</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Animal Type</th>
+                        <th scope="col">Color</th>
+                        <th scope="col">Size</th>
+                      </tr>
+                    </thead>
+                    <tbody id="t-body">
+
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-9">
+              <h2>If you want to update a row, enter the ID Number and the new info, then click submit. Leave the ID Number empty to add a new pet.</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="animal-name">ID Number</label>
+                    <input type="text" class="form-control" id="animal-id" aria-describedby="" placeholder="#">
+                  </div>
+                    <div class="form-group">
+                      <label for="animal-name">New Animal Name</label>
+                      <input type="text" class="form-control" id="animal-name" aria-describedby="" placeholder="Animal name">
+                    </div>
+                    <div class="form-group">
+                      <label for="animal-type">Animal Type</label>
+                      <input type="text" class="form-control" id="animal-type" placeholder="Type of animal">
+                    </div>
+                    <div class="form-group">
+                        <label for="animal-color">Color</label>
+                        <input type="text" class="form-control" id="animal-color" aria-describedby="" placeholder="Color of animal">
+                      </div>
+                      <div class="form-group">
+                        <label for="animal-size">Size</label>
+                        <input type="text" class="form-control" id="animal-size" aria-describedby="" placeholder="Size of animal">
+                      </div>
+                    
+                    <button type="button" class="btn btn-primary" id="add-animal">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="shelterPetsWorks.js"></script>
+</body>
+</html> 
